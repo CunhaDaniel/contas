@@ -1,6 +1,11 @@
 import React from 'react'
 
-export default props => {
+// Todo: é possível melhorar esse cara ?
+// [x] Remoção de variavel não utilizada 
+// [ ] Salvar o método this.state em uma variavel
+// [ ] Criar testes
+
+export default () => {
   return(
     <div> 
       <input id="name" type="text" placeholder="Nome" value={this.state.name} onChange={this.handleChangeName}/>

@@ -11,10 +11,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "babel-jest": "27.5.1",
+    "jest": "27.5.1",
+    "react-test-renderer": "17.0.2",
     "react-router": "^4.3.1"
   },
   "browserslist": {
