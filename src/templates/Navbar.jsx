@@ -4,7 +4,7 @@ export default props => {
     return (
         <div className="container">
             <nav className="navbar navbar-dark bg-dark">
-                <a className="navbar-brand" href="localhost:3000">{props.title}</a>
+                <strong className="navbar-brand">{props.title}</strong>
                 <div className="dropdown">
                     <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Nova conta
