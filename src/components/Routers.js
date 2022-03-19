@@ -5,10 +5,10 @@ import Home from './Home'
 
 const history = createBrowserHistory()
 
-export default props => {
-    return(
-        <Router history={ history }>
-            <Route path='/' component={Home}/>
-        </Router>
-    )
+export default () => {
+  return(
+    <Router history={ history }>
+      <Route path='/' component={Home}/>
+    </Router>
+  )
 }
