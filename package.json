@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "npm": "^6.3.0",
+    "npm": "^9.4.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^5.0.0"
